@@ -1,5 +1,7 @@
-public class LibraryMember {
+import java.util.ArrayList;
 
+public class LibraryMember {
+ ArrayList<bookDetails> books = new ArrayList<>();
     private int memberId;
     private String memberName;
     private int booksIssued;
@@ -32,4 +34,37 @@ public class LibraryMember {
         System.out.println("Books Issued: " + booksIssued);
         System.out.println("----------------------");
     }
+}
+
+class bookDetails {
+  String  author ;
+  String title ; 
+  int pageNumber;
+  
+    public  bookDetails(String  author , String title,int  pageNumber){
+      this.author= author;
+     this.title= title; 
+       this.pageNumber=pageNumber; 
+  }
+    public String  getAuthor(  ){
+        return author ; 
+    }
+        public String  getTitle(   ){
+        return title ; 
+    }
+    
+    public int getPageNumber ( ){
+        return pageNumber ; 
+    }
+    public void setAuthor (String author){
+    this.author=author ; 
+}
+    
+       public void setPageNumber (int pageNumber){
+    this.pageNumber =pageNumber  ; 
+}
+   
+       public void setTitle (String  title ){
+    this.title =title  ; 
+} 
 }
