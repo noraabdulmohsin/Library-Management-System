@@ -1,20 +1,58 @@
 
 # 📚 Library Management System
 
-A Java OOP application to manage library members and track issued books.
+
+
+
+# Library System Project
+
+## Overview
+
+This project is a simple Library Management System developed using Java.
+It demonstrates basic Object-Oriented Programming (OOP) concepts such as classes, objects, encapsulation, and interaction between different classes.
+
+
 
 ## Features
-- Create library members with ID, name, and number of issued books
-- Issue and return books
-- Display member details
-- Simple and clear object-oriented design
 
-## Technologies Used
-- Java
-- Object-Oriented Programming (OOP)
+* Add books to the library
+* Borrow books by a member
+* Return borrowed books
+* Track number of issued books per member
+* Display member details
+* Display borrowed books list
 
-## How It Works
-1. Members are created with a unique ID, name, and the number of books issued.
-2. You can issue a book to a member using `issueBook()` method.
-3. You can return a book using `returnBook()` method.
-4. The program displays member details and updates them automatically after issuing or returning books.
+
+
+## Classes Used
+
+* LibrarySystem (Main class)
+* Library (handles books and borrowing logic)
+* LIBRARYmember (stores member information and borrowed books)
+* bookDetails (stores book information)
+
+
+## What I Learned
+
+* How to design a simple system using multiple classes
+* How objects interact with each other
+* How to use ArrayList in Java
+* How to apply encapsulation using getters and setters
+* How to manage basic program flow in a real-life example (library system)
+
+
+
+## Improvements Made
+
+* Added borrowing and returning functionality
+* Connected members with books using ArrayList
+* Improved structure by separating responsibilities between classes
+* Made the system more realistic and interactive
+
+
+
+## Notes
+
+This is a beginner-level project made for learning purposes and practicing OOP concepts in Java.
+
+
